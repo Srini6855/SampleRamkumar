@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.runner.TestRunnerClass
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 12.60 s <<< FAILURE! -- in com.runner.TestRunnerClass
+Login module.Verify the login with valid credentials without login button -- Time elapsed: 4.728 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'User press the enter key' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("User press the enter key")
+public void user_press_the_enter_key() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
