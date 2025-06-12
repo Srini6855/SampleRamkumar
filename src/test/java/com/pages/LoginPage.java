@@ -11,8 +11,8 @@ public class LoginPage extends BaseClass {
 		PageFactory.initElements(driver, this);
 	}
 
-	@FindBy(id = "username")
-	private WebElement txtUsernam;
+	@FindBy(id = "mail")
+	private WebElement txtUsername;
 	@FindBy(id = "password")
 	private WebElement txtPassword;
 	@FindBy(id = "login")
