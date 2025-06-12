@@ -12,7 +12,7 @@ public class LoginPage extends BaseClass {
 	}
 
 	@FindBy(id = "username")
-	private WebElement txtUsername;
+	private WebElement txtUsernam;
 	@FindBy(id = "password")
 	private WebElement txtPassword;
 	@FindBy(id = "login")
